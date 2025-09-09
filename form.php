@@ -2,16 +2,15 @@
     require_once 'partials/head.php';
 ?>
 <h1>Nous contacter ! </h1>
-    <form action="">
+    <form action="validForm.php" method ="post">
         <div class="container mt-5">
             <div class="form-group">
                 <label for="email">Adresse e-mail</label>
                 <input type="email" class="form-control" name="email" placeholder="@gmail.com" required>
             </div>
-
             <div class="form-group">
                 <label for="prenom">Prénom</label>
-                <input type="text" class="form-control" name="prenom" placeholder="" required>
+                <input type="text" class="form-control" name="name" placeholder="" required>
             </div>
 
             <div class="form-group">
@@ -22,5 +21,7 @@
             <button type="submit" class="btn btn-primary mt-2">Envoyer</button>
         </div>
     </form>
+
+
 <?php
     require_once 'partials/footer.php';
