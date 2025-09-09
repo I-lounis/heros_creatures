@@ -2,7 +2,7 @@
     require_once 'partials/head.php';
 ?>
 <h1>Nous contacter ! </h1>
-    <form action="validForm.php" method ="post">
+    <form action="validform.php" method ="post">
         <div class="container mt-5">
             <div class="form-group">
                 <label for="email">Adresse e-mail</label>
