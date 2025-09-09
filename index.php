@@ -3,7 +3,7 @@
     require_once 'data.php';
     //var_dump($heros);
 ?>
-    <h1>Les heros le plus fun et mignon !</h1>
+    <h1>Les héros les plus fun !</h1>
     <div class="container-fluid my-5">
         <div class="row justify-content-between">
             <?php
@@ -24,7 +24,11 @@
             }   
             ?>
         </div>
+        <div class="row mt-5">
+            <div class="col-1"><a href="form.php" class="btn btn-warning ">Contact</a></div>
+        </div>
     </div>
+
 <?php
     require_once 'partials/footer.php';
 ?>
